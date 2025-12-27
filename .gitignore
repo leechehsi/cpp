@@ -1,2 +1,31 @@
-# Windows executable
+# ===== C / C++ build outputs =====
 *.exe
+*.out
+*.app
+
+# object files
+*.o
+*.obj
+
+# static / shared libs
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# ===== build directories =====
+build/
+bin/
+out/
+cmake-build-*/
+
+# ===== VS Code =====
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
